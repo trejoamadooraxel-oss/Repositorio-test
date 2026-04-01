@@ -1,0 +1,17 @@
+Comandos importantes para la actualizacion de CHROME
+- sudo apt update 
+- sudo apt --only-upgrade install google-chrome-stable
+
+
+Conexion con git a github a repositorios
+
+git init 
+git config  user.name trejoamadooraxel-oss
+git config user.email trejoamadooraxel@gmail.com
+git remote add origin https://github.com/trejoamadooraxel-oss/Repositorio-test
+git add .
+git commit -m primer_comit
+git push -u origin master 
+	Username for 'https://github.com': trejoamadooraxel-oss
+	Password for 'https://trejoamadooraxel-oss@github.com':"token"
+
